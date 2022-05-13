@@ -5,9 +5,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: antiquewhite;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.inputJob {
+  width: 500px;
+}
+
+.inputGroup  {
+  text-align: center;
+}
+
+.Content {
+  text-align: center;
+}
+
+.btn-info {
+  margin-bottom: 5px;
+}
+
+li {
+  display: block;
+}
+
+.list-group-item {
+  width: 500px;
+  margin: auto;
+}
+
+.buttonX {
+  color: red;
+}
+
+.buttonX:hover {
+  cursor: pointer;
+  background-color: red;
+  color: white;
 }
